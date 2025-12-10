@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-docusaurus@latest:*)",
+      "Bash(mkdir:*)",
+      "Bash(cat specs/Module3-The AI-Robot Brain \\(NVIDIA Isaac™\\)/tasks.md)",
+      "Bash(git add .)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

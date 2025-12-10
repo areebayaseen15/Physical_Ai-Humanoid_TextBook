@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Docusaurus build artifacts
+.docusaurus/
+Ai-humanoid/.docusaurus/
+Ai-humanoid/build/
+
+# Environment variables
+.env*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Vercel
+.vercel/
+
+# Rag Chatbot (nested git repo)
+rag-chatbot/

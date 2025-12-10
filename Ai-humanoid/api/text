@@ -1,0 +1,45 @@
+/sp.implement
+
+## Context
+You are generating **Chapter 2 content – Section: [Node]** for:
+
+**Book Title:** Physical AI & Humanoid Robotics — An AI-Native Textbook for Panaversity  
+**Module:** 1 — The Robotic Nervous System (ROS 2)  
+**Chapter:** 2 — Nodes, Topics, Services, and Actions  
+
+**Reference Files:**  
+- `/sp.specify` output for Chapter 2  
+- `/sp.plan` output for Chapter 2  
+
+**Audience:** Graduate-level robotics/AI students with basic Python knowledge  
+**Tone:** Technical, clean, engineering-focused  
+**Format:** Markdown/MDX for Docusaurus  
+**Chunking:** Each sub-section = one RAG-friendly chunk  
+
+## Goals
+- Generate **full content** for [Nodes] only  
+- Include:
+  - Sub-section headings
+  - Technical explanations
+  - Python code snippets (rclpy)
+  - Diagram placeholders
+  - RAG chunk comments
+  - Recommended exercises
+
+- Follow ROS 2 Humble conventions  
+- Expand abbreviations at first mention  
+- Keep content concise and token-efficient  
+
+## Instructions
+1. Use `/sp.plan` to guide sub-sections of [Nodes]  
+2. For each sub-section:
+   - Write explanation
+   - Add Python code snippet placeholder
+   - Add diagram placeholder
+   - Highlight key terms for RAG
+   - Include exercises if applicable
+3. Maintain Markdown/MDX structure and RAG chunk comments  
+
+## Output
+- Full Markdown/MDX content for [Nodes]  
+- Ready to append to `docs/Module1-ROS2/Chapter2-NodesTopicsServicesActions.md`
