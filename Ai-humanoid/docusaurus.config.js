@@ -9,7 +9,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.webp',
+  favicon: '/img/favicon.webp',
 
   organizationName: 'Areeba Yaseen', // GitHub org/user name
   projectName: 'Physical_Ai-Humanoid_TextBook', // Repo name
@@ -44,12 +44,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/logo.webp',
+      image: '/img/logo.webp',
       navbar: {
         title: 'Physical AI & Humanoid Robotics Textbook',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.webp',
+          src: '/img/logo.webp',
         },
         items: [
           {
