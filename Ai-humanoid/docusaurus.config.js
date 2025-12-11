@@ -5,7 +5,7 @@ const config = {
   title: 'Physical AI & Humanoid Robotics Textbook',
   tagline:
     'An open-source, AI-augmented textbook for physical AI and humanoid robotics, leveraging Claude agents for dynamic content generation, personalization, and RAG-driven interactions.',
-  url: 'https://aihumanoidtextbook.vercel.app',
+  url: 'https://physical-ai-humanoid-text-book-kvgq-2l6ecjnkt.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
